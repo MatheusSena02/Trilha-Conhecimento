@@ -1,3 +1,7 @@
 Controle de Fluxo (Loop) :
 break : Comando que imediatamente encerra a execução do loop
 continue : Não executa a iteração atual e segue para a próxima execução, ou seja, ignora a execução daquele bloco de código
+
+Vetores : Array, ou seja, uma estrutura que permite armazenar várias dados do mesmo tipo em uma única variável 
+
+

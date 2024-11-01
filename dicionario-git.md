@@ -4,9 +4,11 @@
 **git config** --global user.name "Nome do Usuário"
 **git config** --global user.email "Email do Usuário"
 
-* Comandos de Mudança de Estado : 
+* Comandos de Mudança de Estado :
+  
 **git add** : Staging Area
-**git add *** : Coloca todos os arquivos na Staging Area
+
+**git add*** : Coloca todos os arquivos na Staging Area
 **git commit -m "Mensagem do commit"** 
 **git commit * -m "Mensagem do commit"** : Commit em todos os arquivos do repositório
 **git status**

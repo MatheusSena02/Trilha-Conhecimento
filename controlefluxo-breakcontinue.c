@@ -9,7 +9,7 @@ int main()
         printf("%d ", i);
         if( i == 5)
         {
-            break;
+            break; //interrupção do loop
         }
     }
     
@@ -19,7 +19,7 @@ int main()
     {
         if(a == 5)
         {
-            continue;
+            continue; //pula a iteração desse trecho do código
         }
         printf("%d ", a);
     }

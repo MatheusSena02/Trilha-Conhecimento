@@ -9,6 +9,6 @@ Tratam-se de arrays, estruturas capazes de armazenar diversas dados do mesmo tip
 * Strings : 
 Trata-se de dados em texto, mas basicamente, são vetores de *char*
 0|1|2|3|4
----|---|---|---|---
+---|---|---|---|---         *estrutura da string no vetor*
 O|L|Á|!|\0
 

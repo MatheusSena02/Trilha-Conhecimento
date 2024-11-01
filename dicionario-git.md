@@ -1,4 +1,4 @@
-# Dicionáiro de Git 
+# Dicionário de Git 
 
 * Comandos Iniciais (Cadastro do Usuário) : 
 **git config** --global user.name "Nome do Usuário"

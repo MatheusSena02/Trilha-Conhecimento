@@ -7,12 +7,14 @@
 0|1|2|3|4
 ---|---|---|---|---       
 O|L|Á|!|\0
-
+<br> 
 
 * Sintaxe Geral :
 ```
 scanf("%s", nome_da_string)
 ```
+<br>
+
 * Sintaxe Aprimorada :
 ```
 #include <stdio.h>
@@ -27,16 +29,58 @@ Entrada : Teste
 Saída : Test
 }
 ```
+
+**É necessário reservar um espaço para o caractere \0 no tamanho da array**
+
+<br>
+
 *Estrutura para impressão* :
 0|1|2|4|5
 ---|---|---|---|---
 T|e|s|t|\0
+<br>
 
-**fgerts** : Lê o conteúdo do arquivo até a próxima quebra de linha e o grava em um char array. Um \0 caractere de terminação nulo é anexado ao final do conteúdo. O indicador de posição é movido para o próximo caractere não lido no arquivo, ou seja, os espaços inseridos serão lidos no programa
+**fgets** : Lê o conteúdo do arquivo até a próxima quebra de linha e o grava em um char array. Um \0 caractere de terminação nulo é anexado ao final do conteúdo. O indicador de posição é movido para o próximo caractere não lido no arquivo, ou seja, a leitura continua mesmo que existam espaços
 
 **sizeof(nome_string)** : Retorna o tamanho total do array em bytes.
 
 **stdin** : Dispositivo de entrada padrão(teclado)
 
+<br>
 
+* Função **puts** : Realiza a impressão da string e somente de strings, não admitindo outro tipo de variável
+  <br>
+  
+```
+#include <stdio.h>
 
+int main()
+{
+    char impressao[5];
+    fgets(impressao, sizeof(impressao), stdin);
+    puts(impressao);
+}
+```
+<br>
+
+* Função **fflush(stdin)** : Evita a quebra do código em caso de repetidas chamadas de entrada para string, evitando que uma seja executada e outra não, por conta do lixo de memória acumulado no buffer
+  
+```
+#include <stdio.h>
+
+int main()
+{
+    char impressao1[7];
+    fgets(impressao1, sizeof(impressao1), stdin);
+    fflush(stdin); //declaração logo após a função de entrada
+    //o buffer do fluxo de dados foi limpo
+    puts(impressao1);
+    //permite que novos dados sejam inseridos
+
+    char impressao2[7];
+    fflush(stdin); //declaração logo após a função de entrada 
+    fgets(impressao2, sizeof(impressao2), stdin);
+    printf("%s", impressao2);
+}
+
+```

@@ -84,3 +84,21 @@ int main()
 }
 
 ```
+
+# string.h
+
+* **strcpy(destino, origem)** = Utilizada para alterar o conteúdo de uma string ou realizar uma atribuição
+* **strcat(destino, origem)** = Utilizada para realizar concatenações das strings, unindo as strings
+* **strlen(string)** = Utilizado para saber o comprimento daquela string
+* **strcmp(string1, string2)** = Realiza a comparação entre duas strings
+
+*strcmp(string1, string2) == 0 : As duas strings são iguais, exatas*
+
+*strcmp(string1, string2) < 0 : Caso o caractere da string1 tenha valor menor que o da string2*
+
+*strcmp(string1, string2) < 0 : Caso o caractere da string2 tenha valor menor que o da string1*
+
+* **locale.h** : Biblioteca que permite incluir acentos nas strings
+
+*setlocale(LC_ALL, "Portuguese") : Função que deve ser chamada no **main** para invocar as funcionalidades da biblioteca, especificando a língua da biblioteca a ser utilizada* 
+

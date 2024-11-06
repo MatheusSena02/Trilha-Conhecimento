@@ -23,3 +23,25 @@ int main()
 tipo_dados|nome_funcao|parâmetro|Estrutura
 ---|---|---|---
 Tipo de dado que a função retorna|Nome específico daquela função|Tipo de dados + Nome do Parâmetro|void myFunction (int x, int y)
+<br>
+
+* Chamada de Funções
+
+```
+#include <stdio.h>
+
+nome_funcao();
+
+int main()
+{
+  return 0;
+}
+
+tipo_dados nome_funcao(parâmetro)
+{
+  <bloco de comando> 
+}
+```
+<br>
+
+**Para função ser executada, é necessário chamar a função no começo do programa. Indicando o programa que existe uma função declarada no programa, aguardando para ser lida**

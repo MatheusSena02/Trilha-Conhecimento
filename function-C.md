@@ -16,3 +16,10 @@ int main()
   return 0;
 }
 ```
+<br>
+
+* Linha da Função :
+
+tipo_dados|nome_funcao|parâmetro|Estrutura
+---|---|---|---
+Tipo de dado que a função retorna|Nome específico daquela função|Tipo de dados + Nome do Parâmetro|void myFunction (int x, int y)

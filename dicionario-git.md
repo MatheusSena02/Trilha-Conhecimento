@@ -1,6 +1,10 @@
 # Dicionário de Git 
 
-* Comandos Iniciais (Cadastro do Usuário) : 
+<img scr = "https://cdn-icons-png.flaticon.com/512/25/25231.png" alt = "Imagem Github" min-width="400px" max-width="400px" width="400px" align="right">
+
+*Aqui serão armazenados os conhecimentos adquiridos acerca do git e seus comandos. Este material serve como uma pesquisa rápida para determinados comandos e estará em atualizações constante, portanto, o material ainda não está 100% completo. Sinta-se a vontade para construibuir como achar melhor, será muito bem-vindo*😊
+
+# Comandos Iniciais (Cadastro do Usuário) : 
 **git config** --global user.name "Nome do Usuário"
 **git config** --global user.email "Email do Usuário"
 

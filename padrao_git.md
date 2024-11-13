@@ -30,3 +30,9 @@
 * **scope** : Contextualização do commit, deve ser curta e concisa, auxilia na indicação do projeto
 
 * **subject** : O assunto/ mensagem do commit, deve se encontrar no imperativo, de tal forma que se enquadre na notação "Se aplicado, esse commit irá *mensagem*" 
+  <br>
+
+**Exemplo** :
+```
+feat(login): Implementa nova funcionalidade de login
+```
